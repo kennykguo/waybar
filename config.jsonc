@@ -8,6 +8,7 @@
     "temperature",
     "memory",
     "cpu",
+    "disk",
     "pulseaudio",
     "battery",
     "custom/nightmode",
@@ -96,6 +97,11 @@
   },
   "cpu": {
     "format": " {usage}% ",
+    "tooltip": "false"
+  },
+  "disk": {
+    "path": "/",
+    "format": "󰋊 {free} ",
     "tooltip": "false"
   },
   "pulseaudio": {
